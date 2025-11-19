@@ -1,0 +1,7 @@
+version: "3.8"
+services:
+  web:
+    image: YOUR_DOCKERHUB_USERNAME/devops-flask-project:latest
+    ports:
+      - "80:5000"
+    restart: always
